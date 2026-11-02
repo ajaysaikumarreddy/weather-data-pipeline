@@ -1,0 +1,17 @@
+# secrets / local config
+.env
+*.json.key
+service-account*.json
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# generated output
+logs/
+powerbi_export/
+
+# editor / OS
+.vscode/
+.DS_Store
